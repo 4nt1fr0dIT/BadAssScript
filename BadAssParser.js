@@ -67,7 +67,7 @@
               return false;
           }
           const income = parseInt(reportDetails.income);
-          if (income <= 350000) {
+          if (income <= 3500000) {
               return false;
           }
           return true;
